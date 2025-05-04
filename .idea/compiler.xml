@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="stockservice" />
         <module name="emailservice" />
-        <module name="orderservice" />
       </profile>
       <profile name="Annotation profile for basedomains" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,6 +21,9 @@
         <module name="basedomains" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="orderservice" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
